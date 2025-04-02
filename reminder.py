@@ -9,7 +9,6 @@ def send_notification():
         app_name="Water Reminder",
         timeout=10
     )
-
 def main():
     interval = 60 * 60  # Remind every hour
     while True:
